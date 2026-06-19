@@ -19,7 +19,7 @@ const items = [
   {
     number: "04",
     title: "Atención en español para artistas residentes en distintos países",
-    text: "Una modalidad especialmente útil para artistas hispanohablantes que viven o trabajan fuera de su país.",
+    text: "Un espacio de atención clínica en español para quienes desarrollan una práctica artística o creativa, independientemente del lugar donde se encuentren",
   },
 ];
 

@@ -11,30 +11,22 @@ export default function Hero() {
         </p>
 
         <h1 id="hero-title">
-          Psicología para artistas y creadores hispanohablantes
-        </h1>
-
-        <p className="hero__headline">
           Un espacio de pensamiento para quienes hacen de la creación una práctica.
-        </p>
+        </h1>
 
         <div className="hero__text">
           <p>
-            En Acto ofrece atención psicológica online en español para artistas,
-            creadores y personas vinculadas a procesos creativos que buscan un
-            espacio clínico donde pensar su práctica, sus conflictos y sus modos
-            de habitar la vida artística.
-          </p>
-
-          <p>
             La vida artística no se reduce a la producción de obras. También
             implica atravesar decisiones, interrupciones, transformaciones,
-            exigencias, vínculos, reconocimiento, incertidumbre y momentos de
-            bloqueo creativo.
+            conflictos y momentos de incertidumbre. La creación pone en juego
+            modos singulares de relacionarse con el trabajo, el deseo, el
+            reconocimiento, el tiempo y los otros.
           </p>
 
           <p>
-            Nuestro trabajo se apoya en una formación clínica y en una reflexión
+            En Acto propone un espacio de trabajo psicológico orientado a
+            quienes desarrollan una práctica artística o creativa. Nuestro
+            trabajo se apoya en una formación clínica y en una reflexión
             sostenida sobre la relación entre creación, subjetividad y vida
             cotidiana.
           </p>
@@ -48,7 +40,7 @@ export default function Hero() {
         <a
           href="#contacto"
           className="hero__button"
-          aria-label="Solicitar una entrevista inicial de orientación psicológica"
+          aria-label="Solicitar una entrevista inicial"
         >
           Solicitar una entrevista inicial
         </a>
