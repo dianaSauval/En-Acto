@@ -1,0 +1,15 @@
+name: Deploy En Acto
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Ejecutar deploy en el servidor
+        run: |
+          bash /home/githubrunner/scripts/deploy-enacto.sh
