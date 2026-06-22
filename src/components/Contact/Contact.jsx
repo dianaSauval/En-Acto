@@ -4,11 +4,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <section
-      className="contact"
-      id="contacto"
-      aria-labelledby="contact-title"
-    >
+    <section className="contact" id="contacto" aria-labelledby="contact-title">
       <div className="contact__inner">
         <div className="contact__content">
           <div className="contact__heading">
@@ -17,8 +13,8 @@ export default function Contact() {
             <h2 id="contact-title">Contacto</h2>
 
             <p>
-              Para solicitar una entrevista inicial o realizar una consulta, podés
-              escribir por correo electrónico, WhatsApp o Instagram.
+              Para solicitar una entrevista inicial o realizar una consulta,
+              podés escribir por correo electrónico, WhatsApp o Instagram.
             </p>
           </div>
 
@@ -27,7 +23,7 @@ export default function Contact() {
             aria-label="Canales de contacto de En Acto"
           >
             <a
-              href="mailto:correo@ejemplo.com"
+              href="mailto:guillermopietra@gmail.com"
               className="contact-social-link contact-social-link--mail"
               aria-label="Enviar correo electrónico a En Acto"
             >
@@ -35,7 +31,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://wa.me/0000000000"
+              href="https://wa.me/5491165375104"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-social-link contact-social-link--whatsapp"
@@ -74,8 +70,8 @@ export default function Contact() {
 
         <p className="sr-only">
           Contacto para solicitar una entrevista inicial de atención psicológica
-          online en español con En Acto. Consultas para artistas,
-          creadores y personas hispanohablantes vinculadas a procesos creativos.
+          online en español con En Acto. Consultas para artistas, creadores y
+          personas hispanohablantes vinculadas a procesos creativos.
         </p>
       </div>
     </section>
